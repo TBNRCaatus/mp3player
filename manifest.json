@@ -1,0 +1,10 @@
+{
+    "name": "My MP3 Player",
+    "short_name": "MP3 Player",
+    "description": "My personal MP3 player",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": []
+}

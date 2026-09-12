@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My MP3 Player</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <div class="player">
+
+        <h1>My MP3 Player</h1>
+
+        <div class="now-playing">
+            <div id="songTitle">No song selected</div>
+        </div>
+
+        <audio id="audioPlayer" controls></audio>
+
+        <div class="controls">
+            <button id="previousButton">⏮</button>
+            <button id="playButton">▶</button>
+            <button id="nextButton">⏭</button>
+        </div>
+
+        <div class="library">
+            <h2>Music Library</h2>
+
+            <input
+                type="file"
+                id="fileInput"
+                accept="audio/mpeg,audio/mp3"
+                multiple
+            >
+
+            <div id="songList"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
